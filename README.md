@@ -37,7 +37,10 @@ m=num/denum
 b=y_mean*x_mean
 print(m,b)
 y_predicted=m*x+b
-print(y_predicted) 
+print(y_predicted)
+plt.scatter(x,y)
+plt.plot(x,y_predicted,color='red')
+plt.show() 
 */
 ```
 
